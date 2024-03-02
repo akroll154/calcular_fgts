@@ -1,0 +1,108 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    background-color: rgb(103, 76, 153);
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+input {
+    border: 2px solid purple;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+input:hover {
+    transition: 0.5s;
+    background-color: rgb(206, 165, 245);
+}
+
+select {
+    border: 2px solid purple;
+    border-radius: 15px;
+}
+
+select:hover {
+    transition: 0.5s;
+    background-color: rgb(206, 165, 245);
+}
+
+button {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 11%;
+    height: 7%;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(103, 76, 153);
+    border: solid 5px purple;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: purple;
+}
+
+#imain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(154, 130, 197);
+    height: 90%;
+    width: 90%;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#itrabalhador {
+
+    width: 35%;
+    height: 10%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+#ivaloraliquota {
+
+    height: 8%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#isalariobruto {
+
+    height: 8%;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#iresultado {
+
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 35px;
+
+}

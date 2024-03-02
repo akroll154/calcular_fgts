@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo FGTS</title>
+
+    <link rel="stylesheet" href="css/calculadorafgts.css">
+
+</head>
+
+<body>
+
+
+
+    <div id="imain">
+
+        <h1>Cálculo FGTS</h1>
+        <br><br>
+        <label style="font-size: 25px;" for="itrabalhador">Selecione o tipo de trabalhador:</label>
+        <br>
+        <select name="trabalhador" id="itrabalhador">
+            <option id="ita" value="0.02" onclick="verificarSelect('ita', 'ivaloraliquota')">Trabalhadores Aprendizes
+            </option>
+            <option id="itd" value="0.112" onclick="verificarSelect('itd', 'ivaloraliquota')">Trabalhadores Domésticos
+            </option>
+            <option id="itg" value="0.08" onclick="verificarSelect('itg', 'ivaloraliquota')">Trabalhadores Gerais
+            </option>
+            <option id="ioutro" value="outro" onclick="verificarSelect('ioutro', 'ivaloraliquota')">Outro</option>
+        </select>
+
+        <br><br>
+
+        <label style="font-size: 25px;" for="ivaloraliquota">Alíquota(em %):</label>
+        <br>
+        <input type="text" name="" id="ivaloraliquota" placeholder="Digite o valor da alíquota." disabled>
+
+        <br><br>
+        <label style="font-size: 25px;" for="isalariobruto">Salário Bruto:</label>
+        <br>
+        <input type="text" name="" id="isalariobruto" placeholder="Ex: 1412">
+
+        <br><br>
+
+        <button id="icalcular" onclick="calcularFGTS()">Calcular</button>
+
+        <p id="iresultado"></p>
+
+
+
+    </div>
+
+
+    <script src="../Cálculo FGTS/js/calculadorafgts.js"></script>
+
+</body>
+
+</html>
